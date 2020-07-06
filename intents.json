@@ -1,0 +1,18 @@
+{"intents": [
+      
+        {"tag": "reporttoday",
+         "patterns": ["what is the weather today?", "what is the weather report?", "todays weather report","what is the weather report today?"],
+         "responses": ["todays weather is 30 ", "30", "It's 30 "]
+        },
+        {"tag": "reporttomorrow",
+         "patterns": ["what is the weather tomorrow?", "what is the weather report for tomorrow?", "tomorrows weather report","what is the weather report tomorrow?"],
+         "responses": ["tomorrow weather will be 40 ", "40 ", "It will be 40"]
+        },
+        {"tag": "scheduletime",
+         "patterns": ["what is the weather schedule time for today?", "what is the weather schedule time?", "schedule of the today weather?","todays schedule time?"],
+         "responses": ["scheduled by 10:00 AM  ", "10:00 AM ", "It will be by 10:00 AM"]
+        }
+     
+   ]
+
+}
